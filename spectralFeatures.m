@@ -13,5 +13,9 @@ totalPower = sum(pow);
 peakFreq = f(maxAmpIdx);
 disp(peakFreq);
 % code for no of peaks
+% rs is the reconstructed signal
 a= findpeaks(rs);
 disp(length(a));
+% code for peak amplitude
+pa=max(abs(rs));
+disp(pa);
